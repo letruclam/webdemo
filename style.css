@@ -1,0 +1,189 @@
+/*
+Theme Name: Royal Watch Store
+Theme URI: https://www.buywpthemes.net/products/free-watch-store-wordpress-theme/
+Author: Peccular
+Author URI: https://www.buywpthemes.net/
+Description: Buying watches online is amongst the most popular shopping items that even the most skeptical people don’t mind ordering online. So if you own a watch store selling all kinds of watches from casual, trendy, to royal watches, online presence is a critical requirement. Watch store owners who aim to take their business online to improve and widen their visibility among online audience looking to buy watches, online Royal Watch Store WordPress Theme is an ideal platform! It will empower you to demonstrate produces and services in the most impressive and compelling manner!  You will have more traffic, more enquiries, and more sales, thereby enhancing success for you. We’ve curated an inspirational design with neatly divided sections where you can display images of watches and graphic elements as well as create textual product descriptions to help potential buyer to make a decision in your favor and buy watch from your store. We’ve paid special attention while creating Royal Watch Store WordPress Theme to ensure the visitor or buyer has a pleasant navigational experience, he is well guided all the information is handy, whether it is your phone number, social media links, images of watches, or your contact details… all these things will create a positive impression and he will get into a positive temperament and is likely to get in touch with you or place an online order for watch if he is a serious buyer and has come looking to buy a watch in your store. Royal Watch Store WordPress Theme is a thoughtfully designed theme equipped to cater to potential buyer of watches. It is a theme that you can manage yourself without hiring web developer. The interface is very user-friendly and to change images or edit content you don’t need to be an expert coder or anything like that. Downloading, installing and managing Royal Watch Store WordPress Theme is super quick, super easy and super interesting. After a few initial sessions once you have gained familiarity, you will be able to make changes as and when you wish quickly. Explore Royal Watch Store WordPress Theme we’ve created especially for watch store owners. 
+Version: 0.1.1
+Tested up to: 5.8
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: royal-watch-store
+Slug: royal-watch-store
+Tags: one-column, two-columns, left-sidebar, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, footer-widgets, full-width-template, theme-options, threaded-comments, translation-ready, blog, grid-layout, portfolio, photography
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.waves {
+    position: absolute;
+    width: 100%;
+    height: 31vh;
+    margin-bottom: -7px;
+    min-height: 100px;
+    max-height: 150px;
+    bottom: 0;
+}
+.m-rl{margin-right: 0;margin-left: 0}
+
+.hero-slider .sliderimg{
+    padding: 29px 0px 0px 57px;
+    background: #E7DB13;
+    margin: 0;
+    width: 920px;
+    height: 700px;
+    right: 108px;
+    top: 0px;
+    z-index: 0;
+    position: relative;
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+}
+.hero-slider .sliderimg img{
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    width: 920px;
+    height: 640px;
+}
+#service-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#blog-section {
+    background-repeat: no-repeat;
+    background: #000;
+    background-size: cover;
+}
+.breadcrumb-section{
+    position: relative;
+    width: 100%;
+    padding: 8em 0 8em 0;
+    background-image: url(assets/images/footer.jpg) !important;
+}
+.breadcrumb-section .headoly {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 55%;
+    background: #00000087;
+}
+.breadcrumb-section .headoly:after {
+    content: "";
+    right: 0;
+    position: absolute;
+    border-right: 10px solid #fff;
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+}
+.footer-area {
+    background: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+    overflow: initial;
+    z-index: 1;
+    padding:4em 0 0em 0;
+    background-repeat: no-repeat;
+}
+.footer-area .f-oly{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    background:#151515;
+    /* opacity: 0.3; */
+      /* z-index: -1; */
+}
+.footer-area .f-innbx {
+    position: relative;
+    padding: 4em 2em 2em 2em;
+    margin: 0px 0 4em 0;
+}
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+}
+.recentcomments a {
+    display: inline-block !important;
+    padding-left: 18px !important;
+    margin: 0 !important;
+}
+
+.slider-img-overlay {
+    position: absolute;
+    left: 0;
+    right: 52.5%;
+    top: 0;
+    bottom: 0;
+    background: #161415;
+    opacity: 1;
+    clip-path: polygon(0 0, 67% 0, 100% 100%, 0% 100%);
+}
+.slider-img-overlay-outer {
+    position: absolute;
+    left: 0;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    opacity: 1;
+    clip-path: polygon(0 0, 68% 0, 100% 100%, 0% 100%);
+}
+@media (max-width: 991px) {
+.slider-img-overlay-outer {
+    right: 35%;
+}
+@media (max-width: 767px) {
+    .about-banner-text {width: 100%;}
+    .breadcrumb-section .headoly { right: 1% !important;}
+}
+.slider-img-overlay {
+    right: 38.5%;
+}
+
+}
